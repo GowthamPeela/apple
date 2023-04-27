@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Comforter&family=Dancing+Script&family=Dosis:wght@200&family=Fira+Sans&family=Gideon+Roman&family=PT+Sans:ital@1&family=Redressed&family=Roboto+Mono:wght@100;400&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+    height: 478vh;
+    background: rgb(7, 7, 7);
+    /* background: linear-gradient(#235c72 , #E4CFA9);  */
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+.icons
+{
+    display: flex;
+    align-items: center;
+    
+}
+
+.icons ul
+{
+    display: inline-flex;
+    list-style: none;
+
+}
+.icons ul a
+{
+    text-decoration: none;
+    margin: 0% 15px ;
+    color: white;
+    font-size: 20px;
+
+}
+.icons ul a:hover
+{
+    color: #9c9c9c;
+}
+.text h1
+{
+    color: rgb(233, 225, 225);
+    text-align: center;
+    height: 10%;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 180px 0 0 14px;
+    font-size: 25px;
+}
+.text  p{
+    color: rgb(233, 225, 225);
+    text-align: center;
+    font-size: 60px;
+    position: absolute;
+    top: 60%;
+    left: 42%;
+
+}
+.content
+{
+    background-image:linear-gradient(rgba(1.5,0,0,1.5) , transparent) , url(https://wallpapershome.com/images/pages/ico_h/23703.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    width: 100%;
+    height: 7%;
+    background-color: transparent;
+}
+.content p
+{
+    font-size: 18px;
+    color: rgb(248, 245, 245); 
+
+}
+.cam
+{
+    padding: 10px 0 0 0 ;
+}
+.camera
+{
+    width: 100%;
+    height: 93vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReqfK1_uuxw70tBOrnBzvKSgikdrymv-SXp3HzQWzkrxnUJYfSL1YVY7J4bri4Vi06Bj4&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0 0 0 ;
+}
+.camera p
+{
+    color: #fff;
+    font-size: 70px;
+    padding: 60px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.last
+{
+    width: 90%;
+    height: 500px;
+    position: absolute;
+    top: 445%;
+    left: 50%;
+    right: 40%;
+    transform: translate(-50%, -50%);
+    background-image: url(https://www.xda-developers.com/files/2021/09/iphone-13-front-e1631797566234.jpeg);
+    background-size: 100% 100%;
+    /* box-shadow: 1px 2px 10px white; */
+    animation: slider 9s infinite linear;
+}
+@keyframes slider 
+{
+    50%{background-image: url(https://www.independent.ie/business/technology/fd1bd/40851822.ece/AUTOCROP/w1240h700/2D7E53E9-9234-4F77-A9A5-4A9F8DF53DC0.jpeg);
+
+    }
+    100%
+    {
+      background-image: url(https://9to5mac.com/wp-content/uploads/sites/6/2021/09/iphone-13-pro-max-tidbits-9to5mac.jpg?quality=82&strip=all&w=1000);
+    }
+    150%
+    {
+      background-image: url(https://di5qs4dv32t01.cloudfront.net/wp-content/uploads/2021/09/iPhone-13-Pro-.jpg);
+    }
+}
+.rights
+{
+    color: rgb(253, 246, 246);
+    text-align: center;
+}
+.rights h5{
+    font-size: 70%;
+}
+
